@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS selectors</title>
+
+    <!-- Cách 2: Internal CSS (CSS nội bộ) -->
+    <style>
+      /* 
+            Sử dụng CSS Selectors để gọi ra phần tử HTML mà chúng ta muốn tác động vào
+        */
+
+      /* Gõ element selectors: tác động vào tất cả phần tử h2 */
+      h2 {
+        color: blueviolet;
+      }
+
+      h3 {
+        color: brown;
+      }
+    </style>
+
+    <!-- Cách 3: External CSS (CSS bên ngoài) -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Cách 1: Inline CSS (CSS nội tuyến) -->
+    <h1 style="color: aquamarine">Đây là tiêu đề</h1>
+    <h2>Đây là tiêu đề 2</h2>
+    <h2>Đây là tiêu đề 2 mới tạo nè</h2>
+    <h3>Đây là tiêu đề 3</h3>
+
+    <!-- Id selector -->
+
+    <p id="doan-van-1">Lorem ipsum dolor sit amet.</p>
+    <p id="doan-van-2">Lorem ipsum dolor sit amet.</p>
+
+    <button class="btn btn1">Button 1</button>
+    <button class="btn btn2">Button 2</button>
+    <!-- Emmet: button.btn*5{Button $} -->
+    <button class="btn">Button 1</button>
+    <button class="btn">Button 2</button>
+    <button class="btn">Button 3</button>
+    <button class="btn">Button 4</button>
+    <button class="btn">Button 5</button>
+    <button class="btn1 btn2">Button 6</button>
+    <div class="box"></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>

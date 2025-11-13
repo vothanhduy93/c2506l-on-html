@@ -1,0 +1,52 @@
+/* Viết CSS ở đây */
+
+h3 {
+  color: chartreuse;
+}
+
+/* Tác động vào phần tử có id là doan-van-1 */
+#doan-van-1 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#doan-van-2 {
+  text-transform: uppercase;
+}
+
+/* Tác động vào phần tử có class là btn */
+.btn {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #5d5d5d;
+  font-size: 12px;
+}
+
+/* Tác động vào phần tử có class là btn1 */
+.btn1,
+.btn2 {
+  background-color: blueviolet;
+  color: white;
+}
+
+/* .btn2 {
+  background-color: burlywood;
+  color: black;
+} */
+
+/* Tác động vào hết tất cả phần tử HTML hiện có */
+* {
+  color: red;
+}
+
+.btn1.btn2 {
+  font-size: 100px;
+}
+
+.box {
+  background-color: chocolate;
+  width: 150px;
+  height: 150px;
+}

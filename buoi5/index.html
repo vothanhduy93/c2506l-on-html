@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buổi 5</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset style="width: 25%">
+        <legend>Thông tin cá nhân</legend>
+        <label for="name">Họ tên</label>
+        <input type="text" id="name" />
+        <br />
+        <br />
+        <label for="phone">Số điện thoại:</label>
+        <input type="number" id="phone" />
+        <br />
+        <br />
+        <label for="country">Quốc gia:</label>
+        <input list="country" />
+        <datalist id="country">
+          <option value="Việt Nam"></option>
+          <option value="Trung Quốc"></option>
+          <option value="Nga"></option>
+          <option value="Mỹ"></option>
+        </datalist>
+      </fieldset>
+      <fieldset style="width: 25%">
+        <legend>Thông tin mối quan hệ</legend>
+        <label for="name">Họ tên cha</label>
+        <input type="text" id="father-name" />
+        <br />
+        <br />
+        <label for="name">Họ tên mẹ</label>
+        <input type="text" id="mother-name" />
+      </fieldset>
+    </form>
+  </body>
+</html>
