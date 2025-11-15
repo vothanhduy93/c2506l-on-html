@@ -1,0 +1,70 @@
+/* Tác động đến phần tử có id là primary-heading */
+#primary-heading {
+  color: blue;
+}
+
+/* Tác động đến tất cả phần tử có class là paragraph */
+.paragraph {
+  color: blueviolet;
+}
+
+p.p1-normal {
+  color: green;
+}
+
+/* Tác động đến tất cả phần tử vừa có class p1-normal vừa có class p2-red */
+.p1-normal.p2-red {
+  color: red;
+}
+
+/* Viết CSS Selectors: tác động từ cấp cha vào các cấp con, cháu ở bên trong. Tối đa là 3 cấp */
+.children-1 {
+  color: red;
+}
+
+.children-2 {
+  color: blue;
+}
+
+/* Tác động phần tử có class là children-1 là con của .parent thì làm sao? */
+
+div.parent p.children-1 {
+  color: black;
+}
+
+.parent .children-1 {
+  color: brown;
+}
+
+.parent .children-2 {
+  color: blueviolet;
+}
+
+.parent .content-box p {
+  color: aqua;
+}
+
+.children-1 {
+  color: red;
+}
+
+.children-2 {
+  color: red;
+}
+
+/* *************************************** */
+
+/* Tác động phần tử có class para-1 là CON TRỰC TIẾP của phần tử có class .container */
+.container > .para-1 {
+  color: red;
+}
+
+/* Tác động là phần tử nằm ngay sau phần tử .container */
+.container + .para-1 {
+  color: red;
+}
+
+/* Tác động tất cả phần tử nằm sau phần tử .container */
+.container ~ .para-1 {
+  color: red;
+}

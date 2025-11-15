@@ -1,0 +1,13 @@
+/* Tác động vào tất cả phần tử có thuộc tính là  vtd-value*/
+[vtd-value] {
+  color: red;
+}
+
+/* Tác động vào tất cả phần tử có class là para-1 */
+[class="para-1"] {
+  color: blue;
+}
+
+[title="đây là đoạn văn"] {
+  color: brown;
+}
